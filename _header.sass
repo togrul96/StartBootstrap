@@ -1,0 +1,40 @@
+header
+    padding: 24px 0
+    position: fixed
+    right: 0
+    left: 0
+    z-index: 1
+    background-color: #212529
+    .imgbox
+        width: 140px
+        img
+            cursor: pointer
+    .btn
+        color: #ffff
+        display: flex
+        display: none
+        border: 1px solid #606060a6
+        opacity: 0.6
+        font-weight: 700
+        font-size: 14px
+        h2
+            cursor: pointer
+        .icon
+            margin-left: 8px
+            cursor: pointer
+    nav
+        a
+            font-size: 19px
+            margin-right: 35px
+            color: #ffff
+            &:hover
+                color: #f3c41a
+                cursor: pointer
+
+    @media screen and ( max-width: 992px )
+        padding: 18px 0
+        .menu
+            nav
+                display: none
+            .btn
+                display: flex
